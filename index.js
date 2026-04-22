@@ -1,7 +1,22 @@
 import express from "express"
 const app = express();
 
-app.get('/hellp', (req,res)=>{
-    res.send("hellp world")
+app.post('/user/signup', (req,res)=>{
+    
 })
 
+app.post('/user/signin',(req,res)=>{
+
+})
+
+app.get('/courses', (req,res)=>{
+
+})
+
+app.get('user/purchases', (req,res)=>{
+
+})
+
+app.post('user/purchase',(req,res)=>{
+    
+})
