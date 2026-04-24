@@ -1,22 +1,9 @@
-import express from "express"
+import express from "express";
+
+import router from './Routes/User.js';
+
 const app = express();
 
-app.post('/user/signup', (req,res)=>{
-    
-})
 
-app.post('/user/signin',(req,res)=>{
-
-})
-
-app.get('/courses', (req,res)=>{
-
-})
-
-app.get('user/purchases', (req,res)=>{
-
-})
-
-app.post('user/purchase',(req,res)=>{
-    
-})
+app.use('',router);
+app.listen(3000);
